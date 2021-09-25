@@ -1,0 +1,57 @@
+name: workout_app
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  bloc: ^7.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.3.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+  figma_squircle: ^0.5.3
+  dart_date: ^1.1.0
+  equatable: ^2.0.3
+  uuid: 3.0.4
+  hydrated_bloc: ^7.1.0
+  google_fonts: ^2.1.0
+  flutter_color: ^2.0.0
+  snap_scroll_physics: ^0.0.1+2
+  overflow_view: ^0.3.1
+  modal_bottom_sheet: ^2.0.0
+  keyboard_actions: ^3.4.4
+  webview_flutter: ^2.0.10
+  flutter_phosphor_icons:
+    git:
+      url: git://github.com/raulmabe/flutter_phosphor_icons.git
+      ref: master
+
+dev_dependencies:
+  bloc_test: ^8.2.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.0
+  very_good_analysis: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/bag.png
+    - assets/images/bottle.png
+    - assets/images/dumbell_hand.png
+    - assets/images/dumbell.png
+    - assets/images/hand.png
+    - assets/images/handgrip.png
+    - assets/images/kettlebell.png
+    - assets/images/punching_bag.png
+    - assets/images/skipping.png
+    - assets/images/trademill.png
+    - assets/images/weight_plate.png
